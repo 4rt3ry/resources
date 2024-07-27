@@ -1,0 +1,102 @@
+{
+    // "workbench.editorAssociations": {
+    //   "*.ipynb": "jupyter.notebook.ipynb"
+    // },
+    "xml.symbols.maxItemsComputed": 100000000,
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "csharpier.enableDebugLogs": true,
+    "[html]": {
+      // "editor.defaultFormatter": "vscode.html-language-features",
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "prettier.enabledLanguageIds": [
+      "csharp",
+      "elm",
+      "flow",
+      "graphql",
+      "handlebars",
+      "java",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "jsonc",
+      "less",
+      "markdown",
+      "mdx",
+      "php",
+      "postcss",
+      "ruby",
+      "scss",
+      "solidity",
+      "svelte",
+      "svg",
+      "typescript",
+      "typescriptreact",
+      "twig",
+      "vue",
+      "xml",
+      "yaml"
+    ],
+    "zenMode.hideLineNumbers": false,
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    // "[javascript]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    // "[jsonc]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorCustomizations": {
+      "[Solarized Dark]": {
+        "editor.background": "#00252e",
+        // "editor.foreground": "#FF0000",
+        "sideBar.background": "#081121",
+        "editorBracketHighlight.foreground1": "#8cc9c0",
+        "editorBracketHighlight.foreground3": "#994956",
+      }
+    },
+    "editor.tokenColorCustomizations": {
+      "[Solarized Dark]": {
+        "functions": "#d6bf58",
+        "textMateRules": [
+          {
+            "scope": "keyword.control",
+            "settings": {
+              "foreground": "#62ff89",
+            }
+          },
+          {
+            "scope": ["variable", "variable.parameter", "variable.language"],
+            "settings": {
+              "foreground": "#268BD2",
+            }
+          },
+          {
+            "scope": "variable.other",
+            "settings": {
+              "foreground": "#91baba",
+            }
+          },
+          {
+            "scope": "storage.type",
+            "settings": {
+              "foreground": "#268BD2",
+              // "foreground": "#62ff89",
+              "fontStyle": ""
+            }
+          },
+          // {"scope": "variable"}
+        ],
+        // ""
+        // "keywords": "#FF0000"
+      }
+    },
+    "breadcrumbs.enabled": false,
+    "editor.quickSuggestionsDelay": 1,
+    "debug.javascript.autoAttachFilter": "smart"
+  }
